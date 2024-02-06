@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedai Mama Anjang</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">KedaiMama<span>Anjang</span></a>
+
+      <div class="navbar-nav">
+        <a href="#">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <main class="content">
+        <h1>Selamat Datang Di <span>KedaiMamaAnjang</span></h1>
+        <p>
+          Tempat makanan dengan sejuta cita rasa yang akan menggugah selera
+          makanan mu
+        </p>
+        <a href="#" class="cta">Pesan Sekarang</a>
+      </main>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about-img.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Harus Makan Disini?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos minus
+            magni cumque maxime neque quisquam perferendis reprehenderit
+            consequuntur, repellendus vero sequi corrupti sapiente labore iste
+            impedit nostrum, laudantium aperiam iusto.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            harum inventore laboriosam at, aperiam, sed ipsam officiis voluptas
+            obcaecati alias doloribus molestias eveniet dolore velit voluptatum
+            vel molestiae recusandae? Eaque!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        corporis voluptatibus culpa quasi et saepe laboriosam, a inventore
+        dolores numquam?
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/menu/1.jpg" alt="Es Teh Manis" class="menu-card-img" />
+          <h3 class="menu-card-title">Es Teh Manis</h3>
+          <p class="menu-card-price">IDR 5.000</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/1.jpg" alt="Es Jeruk" class="menu-card-img" />
+          <h3 class="menu-card-title">Es Jeruk</h3>
+          <p class="menu-card-price">IDR 7.000</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/1.jpg" alt="Es Dawet" class="menu-card-img" />
+          <h3 class="menu-card-title">Es Dawet</h3>
+          <p class="menu-card-price">IDR 10.000</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/1.jpg" alt="Es Kelapa" class="menu-card-img" />
+          <h3 class="menu-card-title">Es Kelapa</h3>
+          <p class="menu-card-price">IDR 15.000</p>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="kontak">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae voluptas mollitia similique aliquam amet a? </p>
+      <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0342050907198!2d106.99088487316575!3d-6.126099460063643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a21651defcdef%3A0x9cfc8f935efc383c!2sPerum%20Bali%20Indah!5e0!3m2!1sid!2sid!4v1707220013180!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        <form action="">
+            <div class="input-group">
+                <i data-feather="user"></i>
+                <input type="text" name="name" id="name" placeholder="Nama Kamu">
+            </div>
+            <div class="input-group">
+                <i data-feather="mail"></i>
+                <input type="email" name="email" id="email" placeholder="Email Kamu">
+            </div>
+            <div class="input-group">
+                <i data-feather="phone"></i>
+                <input type="text" name="nohp" id="nohp" placeholder="No Hp">
+            </div>
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="social">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Anjang Pangestu S</a>.| &copy; 2024.</p>
+      </div>
+    </footer>
+    
+    <!-- Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
